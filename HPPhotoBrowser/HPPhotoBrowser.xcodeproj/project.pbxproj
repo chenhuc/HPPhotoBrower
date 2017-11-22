@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFCD81AD1FC5639F00416D20 /* HPPhotoBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCD81AC1FC5639F00416D20 /* HPPhotoBrowserTests.m */; };
+		AFCD81B81FC5639F00416D20 /* HPPhotoBrowserUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCD81B71FC5639F00416D20 /* HPPhotoBrowserUITests.m */; };
+		AFCD81D81FC5649400416D20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFCD81CF1FC5649400416D20 /* Assets.xcassets */; };
+		AFCD81D91FC5649400416D20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFCD81D01FC5649400416D20 /* LaunchScreen.storyboard */; };
+		AFCD81DA1FC5649400416D20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFCD81D21FC5649400416D20 /* Main.storyboard */; };
+		AFCD81DB1FC5649400416D20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCD81D41FC5649400416D20 /* main.m */; };
+		AFCD81DC1FC5649400416D20 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AFCD81D51FC5649400416D20 /* Info.plist */; };
+		AFCD81EE1FC5652600416D20 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCD81E61FC5652500416D20 /* AppDelegate.m */; };
+		AFCD81EF1FC5652600416D20 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCD81E81FC5652600416D20 /* ViewController.m */; };
+		AFCD81F01FC5652600416D20 /* ToolObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCD81ED1FC5652600416D20 /* ToolObject.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFCD81A91FC5639F00416D20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFCD81881FC5639F00416D20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFCD818F1FC5639F00416D20;
+			remoteInfo = HPPhotoBrowser;
+		};
+		AFCD81B41FC5639F00416D20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFCD81881FC5639F00416D20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFCD818F1FC5639F00416D20;
+			remoteInfo = HPPhotoBrowser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AFCD81901FC5639F00416D20 /* HPPhotoBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HPPhotoBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFCD81A81FC5639F00416D20 /* HPPhotoBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HPPhotoBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFCD81AC1FC5639F00416D20 /* HPPhotoBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPPhotoBrowserTests.m; sourceTree = "<group>"; };
+		AFCD81AE1FC5639F00416D20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFCD81B31FC5639F00416D20 /* HPPhotoBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HPPhotoBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFCD81B71FC5639F00416D20 /* HPPhotoBrowserUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPPhotoBrowserUITests.m; sourceTree = "<group>"; };
+		AFCD81B91FC5639F00416D20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFCD81CF1FC5649400416D20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFCD81D11FC5649400416D20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFCD81D31FC5649400416D20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFCD81D41FC5649400416D20 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AFCD81D51FC5649400416D20 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFCD81E51FC5652500416D20 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AFCD81E61FC5652500416D20 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AFCD81E81FC5652600416D20 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AFCD81E91FC5652600416D20 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AFCD81EC1FC5652600416D20 /* ToolObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolObject.h; sourceTree = "<group>"; };
+		AFCD81ED1FC5652600416D20 /* ToolObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolObject.m; sourceTree = "<group>"; };
+		AFCD81F41FC565ED00416D20 /* HPPhotoBrowserConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPPhotoBrowserConfig.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFCD818D1FC5639F00416D20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFCD81A51FC5639F00416D20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFCD81B01FC5639F00416D20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFCD81871FC5639F00416D20 = {
+			isa = PBXGroup;
+			children = (
+				AFCD81921FC5639F00416D20 /* HPPhotoBrowser */,
+				AFCD81AB1FC5639F00416D20 /* HPPhotoBrowserTests */,
+				AFCD81B61FC5639F00416D20 /* HPPhotoBrowserUITests */,
+				AFCD81911FC5639F00416D20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFCD81911FC5639F00416D20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFCD81901FC5639F00416D20 /* HPPhotoBrowser.app */,
+				AFCD81A81FC5639F00416D20 /* HPPhotoBrowserTests.xctest */,
+				AFCD81B31FC5639F00416D20 /* HPPhotoBrowserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFCD81921FC5639F00416D20 /* HPPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				AFCD81C91FC5649400416D20 /* HPPhotoBrowser */,
+				AFCD81CE1FC5649400416D20 /* Supporting Files */,
+			);
+			path = HPPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		AFCD81AB1FC5639F00416D20 /* HPPhotoBrowserTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFCD81AC1FC5639F00416D20 /* HPPhotoBrowserTests.m */,
+				AFCD81AE1FC5639F00416D20 /* Info.plist */,
+			);
+			path = HPPhotoBrowserTests;
+			sourceTree = "<group>";
+		};
+		AFCD81B61FC5639F00416D20 /* HPPhotoBrowserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AFCD81B71FC5639F00416D20 /* HPPhotoBrowserUITests.m */,
+				AFCD81B91FC5639F00416D20 /* Info.plist */,
+			);
+			path = HPPhotoBrowserUITests;
+			sourceTree = "<group>";
+		};
+		AFCD81C91FC5649400416D20 /* HPPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				AFCD81E71FC5652600416D20 /* AppClass */,
+				AFCD81E41FC5652500416D20 /* AppDelegate */,
+				AFCD81EA1FC5652600416D20 /* AppResource */,
+				AFCD81EB1FC5652600416D20 /* AppTools */,
+			);
+			path = HPPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		AFCD81CE1FC5649400416D20 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFCD81CF1FC5649400416D20 /* Assets.xcassets */,
+				AFCD81D01FC5649400416D20 /* LaunchScreen.storyboard */,
+				AFCD81D21FC5649400416D20 /* Main.storyboard */,
+				AFCD81D41FC5649400416D20 /* main.m */,
+				AFCD81D51FC5649400416D20 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AFCD81E41FC5652500416D20 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				AFCD81E51FC5652500416D20 /* AppDelegate.h */,
+				AFCD81E61FC5652500416D20 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		AFCD81E71FC5652600416D20 /* AppClass */ = {
+			isa = PBXGroup;
+			children = (
+				AFCD81E81FC5652600416D20 /* ViewController.m */,
+				AFCD81E91FC5652600416D20 /* ViewController.h */,
+			);
+			path = AppClass;
+			sourceTree = "<group>";
+		};
+		AFCD81EA1FC5652600416D20 /* AppResource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AppResource;
+			sourceTree = "<group>";
+		};
+		AFCD81EB1FC5652600416D20 /* AppTools */ = {
+			isa = PBXGroup;
+			children = (
+				AFCD81EC1FC5652600416D20 /* ToolObject.h */,
+				AFCD81ED1FC5652600416D20 /* ToolObject.m */,
+				AFCD81F51FC565F400416D20 /* HPPhotoBrowser */,
+			);
+			path = AppTools;
+			sourceTree = "<group>";
+		};
+		AFCD81F51FC565F400416D20 /* HPPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				AFCD81F41FC565ED00416D20 /* HPPhotoBrowserConfig.h */,
+			);
+			path = HPPhotoBrowser;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFCD818F1FC5639F00416D20 /* HPPhotoBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFCD81BC1FC563A000416D20 /* Build configuration list for PBXNativeTarget "HPPhotoBrowser" */;
+			buildPhases = (
+				AFCD818C1FC5639F00416D20 /* Sources */,
+				AFCD818D1FC5639F00416D20 /* Frameworks */,
+				AFCD818E1FC5639F00416D20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HPPhotoBrowser;
+			productName = HPPhotoBrowser;
+			productReference = AFCD81901FC5639F00416D20 /* HPPhotoBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFCD81A71FC5639F00416D20 /* HPPhotoBrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFCD81BF1FC563A000416D20 /* Build configuration list for PBXNativeTarget "HPPhotoBrowserTests" */;
+			buildPhases = (
+				AFCD81A41FC5639F00416D20 /* Sources */,
+				AFCD81A51FC5639F00416D20 /* Frameworks */,
+				AFCD81A61FC5639F00416D20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFCD81AA1FC5639F00416D20 /* PBXTargetDependency */,
+			);
+			name = HPPhotoBrowserTests;
+			productName = HPPhotoBrowserTests;
+			productReference = AFCD81A81FC5639F00416D20 /* HPPhotoBrowserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AFCD81B21FC5639F00416D20 /* HPPhotoBrowserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFCD81C21FC563A000416D20 /* Build configuration list for PBXNativeTarget "HPPhotoBrowserUITests" */;
+			buildPhases = (
+				AFCD81AF1FC5639F00416D20 /* Sources */,
+				AFCD81B01FC5639F00416D20 /* Frameworks */,
+				AFCD81B11FC5639F00416D20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFCD81B51FC5639F00416D20 /* PBXTargetDependency */,
+			);
+			name = HPPhotoBrowserUITests;
+			productName = HPPhotoBrowserUITests;
+			productReference = AFCD81B31FC5639F00416D20 /* HPPhotoBrowserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFCD81881FC5639F00416D20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = hupo;
+				TargetAttributes = {
+					AFCD818F1FC5639F00416D20 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					AFCD81A71FC5639F00416D20 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AFCD818F1FC5639F00416D20;
+					};
+					AFCD81B21FC5639F00416D20 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AFCD818F1FC5639F00416D20;
+					};
+				};
+			};
+			buildConfigurationList = AFCD818B1FC5639F00416D20 /* Build configuration list for PBXProject "HPPhotoBrowser" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFCD81871FC5639F00416D20;
+			productRefGroup = AFCD81911FC5639F00416D20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFCD818F1FC5639F00416D20 /* HPPhotoBrowser */,
+				AFCD81A71FC5639F00416D20 /* HPPhotoBrowserTests */,
+				AFCD81B21FC5639F00416D20 /* HPPhotoBrowserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFCD818E1FC5639F00416D20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFCD81DC1FC5649400416D20 /* Info.plist in Resources */,
+				AFCD81DA1FC5649400416D20 /* Main.storyboard in Resources */,
+				AFCD81D81FC5649400416D20 /* Assets.xcassets in Resources */,
+				AFCD81D91FC5649400416D20 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFCD81A61FC5639F00416D20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFCD81B11FC5639F00416D20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFCD818C1FC5639F00416D20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFCD81F01FC5652600416D20 /* ToolObject.m in Sources */,
+				AFCD81EF1FC5652600416D20 /* ViewController.m in Sources */,
+				AFCD81EE1FC5652600416D20 /* AppDelegate.m in Sources */,
+				AFCD81DB1FC5649400416D20 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFCD81A41FC5639F00416D20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFCD81AD1FC5639F00416D20 /* HPPhotoBrowserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFCD81AF1FC5639F00416D20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFCD81B81FC5639F00416D20 /* HPPhotoBrowserUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFCD81AA1FC5639F00416D20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFCD818F1FC5639F00416D20 /* HPPhotoBrowser */;
+			targetProxy = AFCD81A91FC5639F00416D20 /* PBXContainerItemProxy */;
+		};
+		AFCD81B51FC5639F00416D20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFCD818F1FC5639F00416D20 /* HPPhotoBrowser */;
+			targetProxy = AFCD81B41FC5639F00416D20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AFCD81D01FC5649400416D20 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFCD81D11FC5649400416D20 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AFCD81D21FC5649400416D20 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFCD81D31FC5649400416D20 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFCD81BA1FC563A000416D20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AFCD81BB1FC563A000416D20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFCD81BD1FC563A000416D20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PYAN2G4D94;
+				INFOPLIST_FILE = "$(SRCROOT)/HPPhotoBrowser/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hupo.com.HPPhotoBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFCD81BE1FC563A000416D20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PYAN2G4D94;
+				INFOPLIST_FILE = "$(SRCROOT)/HPPhotoBrowser/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hupo.com.HPPhotoBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AFCD81C01FC563A000416D20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PYAN2G4D94;
+				INFOPLIST_FILE = HPPhotoBrowserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hupo.com.HPPhotoBrowserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HPPhotoBrowser.app/HPPhotoBrowser";
+			};
+			name = Debug;
+		};
+		AFCD81C11FC563A000416D20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PYAN2G4D94;
+				INFOPLIST_FILE = HPPhotoBrowserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hupo.com.HPPhotoBrowserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HPPhotoBrowser.app/HPPhotoBrowser";
+			};
+			name = Release;
+		};
+		AFCD81C31FC563A000416D20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PYAN2G4D94;
+				INFOPLIST_FILE = HPPhotoBrowserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hupo.com.HPPhotoBrowserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HPPhotoBrowser;
+			};
+			name = Debug;
+		};
+		AFCD81C41FC563A000416D20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PYAN2G4D94;
+				INFOPLIST_FILE = HPPhotoBrowserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hupo.com.HPPhotoBrowserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HPPhotoBrowser;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFCD818B1FC5639F00416D20 /* Build configuration list for PBXProject "HPPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFCD81BA1FC563A000416D20 /* Debug */,
+				AFCD81BB1FC563A000416D20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFCD81BC1FC563A000416D20 /* Build configuration list for PBXNativeTarget "HPPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFCD81BD1FC563A000416D20 /* Debug */,
+				AFCD81BE1FC563A000416D20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFCD81BF1FC563A000416D20 /* Build configuration list for PBXNativeTarget "HPPhotoBrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFCD81C01FC563A000416D20 /* Debug */,
+				AFCD81C11FC563A000416D20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFCD81C21FC563A000416D20 /* Build configuration list for PBXNativeTarget "HPPhotoBrowserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFCD81C31FC563A000416D20 /* Debug */,
+				AFCD81C41FC563A000416D20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFCD81881FC5639F00416D20 /* Project object */;
+}
